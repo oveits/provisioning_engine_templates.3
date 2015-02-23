@@ -1,4 +1,5 @@
 ActiveAdmin.register MyTemplate do
+  permit_params :name, :type, :body
 
 
   # See permitted parameters documentation:
